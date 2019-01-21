@@ -1,23 +1,23 @@
 package jp.ac.uryukyu.ie.e185741;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class KomaTest {
+class KomaTest {
 
     @Test
-    public void getState() {
+    void getState() {
         System.out.println("return this.state");
     }
 
     @Test
-    public void setState() {
+    void setState() {
         System.out.println("this.state = state");
     }
 
     @Test
-    public void getPosition() {
+    void getPosition() {
         System.out.println("位置");
     }
 }
